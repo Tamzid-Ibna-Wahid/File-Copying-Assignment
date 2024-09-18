@@ -26,7 +26,7 @@ public class Filecopy {
          try {
             inputfile.createNewFile();
         } catch (IOException e) {
-            System.out.println("Unable to creat this file");
+            System.out.println("Unable to create this file");
             e.printStackTrace();
         }
 
